@@ -7,6 +7,10 @@ import javax.jms.JMSException;
 import javax.jms.MessageProducer;
 import javax.jms.Session;
 import javax.jms.TextMessage;
+
+
+//the following 2 dependencies are provided by activemq jar file which I didn't include since,
+//the file size exceeds the limit in courseweb.
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
